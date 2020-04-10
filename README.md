@@ -5,15 +5,23 @@ MPI installation documentation for mac os
 
 Instructions:
 1. Downlad the following file : https://download.open-mpi.org/release/open-mpi/v2.0/openmpi-2.0.4.tar.bz2 , I have added the file to the repository as well/
+
 2.open terminal and navigate to the directory in which the file was intalled.
+
 3.Once in the directory ENTER THESE INSTRUCTION ONTO THE TERMINAL PROMPT ONE AFTER ANOTHER:
-  > tar xf openmpi-2.0.2.tar
-  > cd openmpi-2.0.2/
+
+  > tar xf openmpi-2.0.4.tar
+  
+  > cd openmpi-2.0.4/
+  
   > ./configure --prefix=$HOME/opt/usr/local
+  
   > make all
+  
   > make install
+  
   > $HOME/opt/usr/local/bin/mpirun --version
-  mpirun (Open MPI) 2.0.2
+  mpirun (Open MPI) 2.0.4
   
   
  4.Open atom and paste the following code and save it as hello.c on your desktop :
@@ -31,6 +39,7 @@ Instructions:
         MPI_Finalize();}
         
   5.navigate your terminal prompt to the desktop and enter the following commands. These commands will compile and  execute the hello.c       file.:
+  
     1. for compilation:
         mpicc -o hello ./hello.c
     2. for execution:
