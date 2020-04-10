@@ -68,6 +68,7 @@ launch a process. This determines how many time we can run an instruction in a c
 To extend the number of slots carry out the following steps:
 
 1.Create a hostfile with anyname 
+
 2.within the write:
 
           localhost slots = <#>
@@ -81,9 +82,9 @@ where #=no. of slots needed.
  4. While running wite the following on the terminal prompt:
             
             
-            mpirun -hostfile <filename> -np <#> <codefilename>
+        mpirun -hostfile <filename> -np <#> <codefilename>
             
             
-  
+            
           
  
