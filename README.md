@@ -46,3 +46,5 @@ Instructions:
         mpirun -np 2 ./hello
       
         
+You can download Visual Studio for mac here:
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio-mac/?sku=communitymac&rel=16
