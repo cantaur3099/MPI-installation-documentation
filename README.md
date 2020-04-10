@@ -55,7 +55,7 @@ Instructions:
  
         PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 206
         
-  To prevent this, before the execution of main file always :
+  To prevent this, before the execution of main file always type this on the terminal prompt :
         
         export PMIX_MCA_gds=hash
         
