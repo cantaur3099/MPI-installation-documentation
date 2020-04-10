@@ -85,6 +85,6 @@ where #=no. of slots needed.
         mpirun -hostfile <filename> -np <#> <codefilename>
             
             
- Although be weary og the last note,it isnt often needed and the file extention of the hostfile may become a problem with certain architectures , such as my own x86.
+ Although be weary of the last note,it isnt often needed and the file extention of the hostfile may become a problem with certain architectures , such as my own x86.
           
  
