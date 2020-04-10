@@ -1,4 +1,4 @@
-# MPI-installation-documentation
+# MPI-installation-documentation for mac os
 MPI installation doc
 
 MPI installation documentation for mac os
