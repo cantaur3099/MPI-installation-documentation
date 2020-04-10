@@ -44,6 +44,11 @@ Instructions:
         mpicc -o hello ./hello.c
     2. for execution:
         mpirun -np 2 ./hello
+        
+   6.To confirm the installation , observe if the following output is produced:
+   
+      Hello: rank 1, world: 2
+      Hello: rank 0, world: 2
       
         
 You can download Visual Studio for mac here:
